@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B0F06506-8709-4416-A1B6-C78D706E7600}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_LongParameterList", "02_LongParameterList\02_LongParameterList.csproj", "{FCBF51E3-9644-4BEE-8368-55B42E35170E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_RefusedBequest", "03_RefusedBequest\03_RefusedBequest.csproj", "{4EC1495A-68B3-4230-8852-928601A32C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CyclomaticComplexity", "04_CyclomaticComplexity\04_CyclomaticComplexity.csproj", "{E66EE2D4-774C-43E7-90F9-DAA56C2A8949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_DataClumps", "05_DataClumps\05_DataClumps.csproj", "{38E68A57-7CE6-41E6-AE0E-6C29A78223B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_ShotgunSurgery", "01_ShotgunSurgery\01_ShotgunSurgery.csproj", "{FB378B24-61BB-4CF8-9BF2-649F19C4EC49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBF51E3-9644-4BEE-8368-55B42E35170E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBF51E3-9644-4BEE-8368-55B42E35170E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBF51E3-9644-4BEE-8368-55B42E35170E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBF51E3-9644-4BEE-8368-55B42E35170E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC1495A-68B3-4230-8852-928601A32C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC1495A-68B3-4230-8852-928601A32C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC1495A-68B3-4230-8852-928601A32C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC1495A-68B3-4230-8852-928601A32C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66EE2D4-774C-43E7-90F9-DAA56C2A8949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66EE2D4-774C-43E7-90F9-DAA56C2A8949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66EE2D4-774C-43E7-90F9-DAA56C2A8949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66EE2D4-774C-43E7-90F9-DAA56C2A8949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E68A57-7CE6-41E6-AE0E-6C29A78223B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E68A57-7CE6-41E6-AE0E-6C29A78223B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E68A57-7CE6-41E6-AE0E-6C29A78223B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E68A57-7CE6-41E6-AE0E-6C29A78223B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB378B24-61BB-4CF8-9BF2-649F19C4EC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB378B24-61BB-4CF8-9BF2-649F19C4EC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB378B24-61BB-4CF8-9BF2-649F19C4EC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB378B24-61BB-4CF8-9BF2-649F19C4EC49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCBF51E3-9644-4BEE-8368-55B42E35170E} = {B0F06506-8709-4416-A1B6-C78D706E7600}
+		{4EC1495A-68B3-4230-8852-928601A32C4E} = {B0F06506-8709-4416-A1B6-C78D706E7600}
+		{E66EE2D4-774C-43E7-90F9-DAA56C2A8949} = {B0F06506-8709-4416-A1B6-C78D706E7600}
+		{38E68A57-7CE6-41E6-AE0E-6C29A78223B6} = {B0F06506-8709-4416-A1B6-C78D706E7600}
+		{FB378B24-61BB-4CF8-9BF2-649F19C4EC49} = {B0F06506-8709-4416-A1B6-C78D706E7600}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F09A0E99-EFBE-4018-88E5-CAFB76F4B261}
+	EndGlobalSection
+EndGlobal
