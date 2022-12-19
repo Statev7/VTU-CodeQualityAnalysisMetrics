@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace _01_SRP
+﻿namespace _01_SRP
 {
+    using System;
+
     public class RefactoredCode
     {
         public class Person
         {
-            private const string NULL_NAME_ERROR_MESSAGE = "{0} cannot be null!";
+            private const string INVALID_NAME_ERROR_MESSAGE = "{0} cannot be null or empty!";
 
             private string firstName;
             private string middleName;
@@ -56,7 +56,7 @@ namespace _01_SRP
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    var errorMesssage = string.Format(NULL_NAME_ERROR_MESSAGE, nameOf);
+                    var errorMesssage = string.Format(INVALID_NAME_ERROR_MESSAGE, nameOf);
 
                     throw new ArgumentNullException(errorMesssage);
                 }
